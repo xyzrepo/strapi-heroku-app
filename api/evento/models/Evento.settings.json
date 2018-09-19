@@ -1,0 +1,20 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "evento",
+    "description": "Próximos eventos"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "Título": {
+      "type": "string"
+    },
+    "Data do evento": {
+      "type": "date",
+      "required": true
+    }
+  }
+}

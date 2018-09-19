@@ -32,5 +32,38 @@
         "appearance": ""
       }
     }
+  },
+  "noticia": {
+    "attributes": {
+      "Título": {
+        "appearance": ""
+      },
+      "Descrição": {
+        "appearance": ""
+      },
+      "Data de postagem": {
+        "appearance": ""
+      },
+      "Conteúdo": {
+        "appearance": "WYSIWYG"
+      }
+    }
+  },
+  "banner": {
+    "attributes": {
+      "Texto alternativo": {
+        "appearance": ""
+      }
+    }
+  },
+  "evento": {
+    "attributes": {
+      "Título": {
+        "appearance": ""
+      },
+      "Data do evento": {
+        "appearance": ""
+      }
+    }
   }
 }

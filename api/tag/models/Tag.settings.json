@@ -1,6 +1,6 @@
 {
   "connection": "default",
-  "collectionName": "",
+  "collectionName": "tag",
   "info": {
     "name": "tag",
     "description": ""
@@ -9,13 +9,14 @@
     "timestamps": true
   },
   "attributes": {
-    "name": {
-      "type": "string"
+    "nome": {
+      "type": "string",
+      "unique": true,
+      "required": true
     },
-    "posts": {
-      "collection": "post",
-      "via": "tags",
-      "dominant": true
+    "noticias": {
+      "collection": "noticia",
+      "via": "tags"
     }
   }
 }

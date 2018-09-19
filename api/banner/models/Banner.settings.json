@@ -1,0 +1,21 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "banner",
+    "description": "Imagens do banner rotativo"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "Texto alternativo": {
+      "type": "string"
+    },
+    "Imagem": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    }
+  }
+}

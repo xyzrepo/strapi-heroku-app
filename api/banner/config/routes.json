@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/tag",
-      "handler": "Tag.find",
+      "path": "/banner",
+      "handler": "Banner.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/tag/count",
-      "handler": "Tag.count",
+      "path": "/banner/count",
+      "handler": "Banner.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/tag/:_id",
-      "handler": "Tag.findOne",
+      "path": "/banner/:_id",
+      "handler": "Banner.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/tag",
-      "handler": "Tag.create",
+      "path": "/banner",
+      "handler": "Banner.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/tag/:_id",
-      "handler": "Tag.update",
+      "path": "/banner/:_id",
+      "handler": "Banner.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/tag/:_id",
-      "handler": "Tag.destroy",
+      "path": "/banner/:_id",
+      "handler": "Banner.destroy",
       "config": {
         "policies": []
       }
