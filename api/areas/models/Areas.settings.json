@@ -1,0 +1,25 @@
+{
+  "connection": "default",
+  "collectionName": "areasdeinteresse",
+  "info": {
+    "name": "areas",
+    "description": "Áreas de interesse dos professores"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "Área": {
+      "unique": true,
+      "type": "string",
+      "required": true
+    },
+    "Docentes": {
+      "collection": "docente",
+      "via": "Áreas"
+    },
+    "Descrição": {
+      "type": "string"
+    }
+  }
+}

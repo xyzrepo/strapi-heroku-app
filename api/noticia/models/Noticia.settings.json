@@ -1,6 +1,6 @@
 {
   "connection": "default",
-  "collectionName": "",
+  "collectionName": "noticia",
   "info": {
     "name": "noticia",
     "description": "Notícias do site"
@@ -16,21 +16,18 @@
     "Descrição": {
       "type": "string"
     },
-    "Data de postagem": {
-      "type": "date"
-    },
     "Conteúdo": {
       "type": "text"
-    },
-    "tags": {
-      "collection": "tag",
-      "via": "noticias",
-      "dominant": true
     },
     "Imagem": {
       "model": "file",
       "via": "related",
       "plugin": "upload"
+    },
+    "Tags": {
+      "collection": "tag",
+      "via": "Noticias",
+      "dominant": true
     }
   }
 }

@@ -65,5 +65,57 @@
         "appearance": ""
       }
     }
+  },
+  "docente": {
+    "attributes": {
+      "Nome": {
+        "appearance": ""
+      },
+      "Tipo": {
+        "appearance": ""
+      },
+      "Horas": {
+        "appearance": ""
+      },
+      "Nível": {
+        "appearance": ""
+      },
+      "Descrição": {
+        "appearance": "WYSIWYG"
+      },
+      "Lattes": {
+        "appearance": ""
+      },
+      "Email": {
+        "appearance": ""
+      },
+      "Ramal": {
+        "appearance": ""
+      },
+      "Site pessoal": {
+        "appearance": ""
+      }
+    }
+  },
+  "areasDeInteresse": {
+    "attributes": {
+      "Área": {
+        "appearance": ""
+      }
+    }
+  },
+  "areas": {
+    "attributes": {
+      "Descrição": {
+        "appearance": ""
+      }
+    }
+  },
+  "linkRapido": {
+    "attributes": {
+      "Link": {
+        "appearance": ""
+      }
+    }
   }
 }

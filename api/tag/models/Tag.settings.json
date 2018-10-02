@@ -3,20 +3,20 @@
   "collectionName": "tag",
   "info": {
     "name": "tag",
-    "description": ""
+    "description": "Tag das notícias\n"
   },
   "options": {
     "timestamps": true
   },
   "attributes": {
-    "nome": {
+    "Nome": {
       "type": "string",
       "unique": true,
       "required": true
     },
-    "noticias": {
+    "Noticias": {
       "collection": "noticia",
-      "via": "tags"
+      "via": "Tags"
     }
   }
 }

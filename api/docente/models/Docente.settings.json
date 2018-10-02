@@ -1,0 +1,67 @@
+{
+  "connection": "default",
+  "collectionName": "docente",
+  "info": {
+    "name": "docente",
+    "description": "Docentes do departamento de computação"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "Nome": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "Áreas": {
+      "collection": "areas",
+      "via": "Docentes",
+      "dominant": true
+    },
+    "Tipo": {
+      "type": "enumeration",
+      "required": true,
+      "enum": [
+        "Professor adjunto",
+        " Professor associado",
+        " Professor substituto",
+        " Ex-docente"
+      ]
+    },
+    "Horas": {
+      "max": 120,
+      "type": "integer",
+      "required": true
+    },
+    "Nível": {
+      "type": "enumeration",
+      "required": true,
+      "enum": [
+        "Doutorado",
+        " Pós Doutorado",
+        " Mestrado"
+      ]
+    },
+    "Descrição": {
+      "type": "text"
+    },
+    "Lattes": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "Foto": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "Ramal": {
+      "type": "integer"
+    },
+    "Site pessoal": {
+      "type": "string"
+    }
+  }
+}
