@@ -8,8 +8,7 @@
     "setup": "cd admin && npm run setup",
     "start": "strapi start",
     "strapi": "node_modules/strapi/bin/strapi.js",
-    "lint": "node_modules/.bin/eslint api/**/*.js config/**/*.js plugins/**/*.js",
-    "postinstall": "node node_modules/strapi/lib/utils/post-install.js"
+    "lint": "node_modules/.bin/eslint api/**/*.js config/**/*.js plugins/**/*.js"
   },
   "devDependencies": {
     "babel-eslint": "^7.1.1",
@@ -21,20 +20,23 @@
   "dependencies": {
     "lodash": "4.x.x",
     "strapi": "^3.0.0-beta.17.7",
-    "strapi-hook-mongoose": "3.0.0-beta.17.7"
+    "strapi-hook-mongoose": "3.0.0-beta.17.7",
+    "strapi-plugin-content-manager": "3.0.0-beta.17.7",
+    "strapi-plugin-content-type-builder": "3.0.0-beta.17.7",
+    "strapi-plugin-email": "3.0.0-beta.17.7",
+    "strapi-plugin-upload": "3.0.0-beta.17.7",
+    "strapi-plugin-users-permissions": "3.0.0-beta.17.7"
   },
   "author": {
     "name": "Baker",
     "email": "root@xyz.dev",
     "url": ""
   },
-  "maintainers": [
-    {
-      "name": "pierreburgy",
-      "email": "",
-      "url": ""
-    }
-  ],
+  "maintainers": [{
+    "name": "pierreburgy",
+    "email": "",
+    "url": ""
+  }],
   "strapi": {
     "packageManager": "npm"
   },
