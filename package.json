@@ -33,11 +33,13 @@
     "email": "root@xyz.dev",
     "url": ""
   },
-  "maintainers": [{
-    "name": "pierreburgy",
-    "email": "",
-    "url": ""
-  }],
+  "maintainers": [
+    {
+      "name": "pierreburgy",
+      "email": "",
+      "url": ""
+    }
+  ],
   "strapi": {
     "packageManager": "npm"
   },
