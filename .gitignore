@@ -101,3 +101,13 @@ node_modules
 
 testApp
 coverage
+config/locales/de_DE.json
+config/locales/en_US.json
+config/locales/es_ES.json
+config/locales/fr_FR.json
+config/locales/it_IT.json
+config/locales/ja_JP.json
+config/locales/ru_RU.json
+config/locales/tr_TR.json
+
+admin
